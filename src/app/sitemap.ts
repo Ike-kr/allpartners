@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { programs } from "@/data/programs";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://jehyubigyo.vercel.app";
+  const baseUrl = "https://partnersview.vercel.app";
   const now = new Date();
 
   const programPages: MetadataRoute.Sitemap = programs.map((program) => ({

@@ -50,7 +50,7 @@ export default function SubmitPage() {
       <header className="bg-white border-b border-gray-100">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <span className="text-xl font-bold text-blue-600">제휴비교</span>
+            <span className="text-xl font-bold text-blue-600">파트너스뷰</span>
           </Link>
           <Link href="/" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">
             ← 목록으로
@@ -65,7 +65,7 @@ export default function SubmitPage() {
             프로그램 등록 신청
           </h1>
           <p className="text-sm text-gray-500">
-            제휴비교에 어필리에이트 프로그램을 등록하고 싶으시다면
+            파트너스뷰에 어필리에이트 프로그램을 등록하고 싶으시다면
             <br />아래 양식을 작성해주세요.
           </p>
         </div>

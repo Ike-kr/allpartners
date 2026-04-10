@@ -1,8 +1,8 @@
-# 제휴비교 (JehyuBigyo)
+# 파트너스뷰 (PartnersView)
 
 국내 제휴 마케팅(어필리에이트) 프로그램을 한눈에 비교할 수 있는 웹 서비스입니다.
 
-**Live:** https://jehyubigyo.vercel.app
+**Live:** https://partnersview.co.kr
 
 ## Features
 

@@ -53,9 +53,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const program = programs.find((p) => p.id === id);
   if (!program) return { title: "프로그램을 찾을 수 없습니다" };
 
-  const title = `${program.name} - 수수료, 정산조건, 가입방법 | 제휴비교`;
+  const title = `${program.name} - 수수료, 정산조건, 가입방법 | 파트너스뷰`;
   const description = `${program.name}(${program.company}) 제휴 마케팅 프로그램. 수수료율 ${program.commissionRate}, 정산 주기 ${program.settlementCycle}. 가입 방법과 조건을 확인하세요.`;
-  const url = `https://jehyubigyo.vercel.app/programs/${program.id}`;
+  const url = `https://partnersview.vercel.app/programs/${program.id}`;
 
   return {
     title,
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       type: "website",
       url,
-      siteName: "제휴비교",
+      siteName: "파트너스뷰",
       locale: "ko_KR",
     },
     twitter: {
@@ -97,7 +97,7 @@ export default async function ProgramDetailPage({ params }: Props) {
       url: program.officialUrl,
     },
     description: program.description,
-    url: `https://jehyubigyo.vercel.app/programs/${program.id}`,
+    url: `https://partnersview.vercel.app/programs/${program.id}`,
     category: "Affiliate Marketing",
     additionalProperty: [
       {
@@ -295,7 +295,7 @@ export default async function ProgramDetailPage({ params }: Props) {
       <footer className="bg-white border-t border-gray-200 mt-auto">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center">
           <p className="text-sm font-medium text-gray-500">
-            제휴비교 — 국내 제휴 마케팅 프로그램 비교 플랫폼
+            파트너스뷰 — 국내 제휴 마케팅 프로그램 비교 플랫폼
           </p>
           <p className="text-xs text-gray-400 mt-2">
             본 사이트의 정보는 참고용이며, 정확한 조건은 각 프로그램 공식 사이트에서
