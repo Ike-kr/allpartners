@@ -36,7 +36,7 @@ export const programs: AffiliateProgram[] = [
   },
   {
     id: 'naver-shopping-connect',
-    name: '네이버 쇼핑 커넥트',
+    name: '네이버 브랜드커넥트 (쇼핑 커넥트)',
     company: '네이버',
     description: '네이버 생태계 기반 어필리에이트 프로그램',
     type: ['CPS'],
