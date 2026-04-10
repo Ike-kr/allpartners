@@ -96,7 +96,7 @@ export default function Home() {
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
           <Link href="/" className="inline-block">
-            <h1 className="text-2xl sm:text-3xl font-bold text-blue-600">올파트너스</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold text-blue-600">제휴비교</h1>
           </Link>
           <p className="mt-1 text-sm sm:text-base text-gray-500">
             한눈에 비교하는 국내 제휴 마케팅 프로그램
@@ -185,7 +185,7 @@ export default function Home() {
       <footer className="bg-white border-t border-gray-200 mt-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center">
           <p className="text-sm font-medium text-gray-500">
-            올파트너스 — 국내 제휴 마케팅 프로그램 비교 플랫폼
+            제휴비교 — 국내 제휴 마케팅 프로그램 비교 플랫폼
           </p>
           <div className="mt-3">
             <Link href="/submit" className="text-sm text-blue-600 hover:text-blue-800 font-medium transition-colors">

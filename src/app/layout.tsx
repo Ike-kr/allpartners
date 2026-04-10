@@ -13,26 +13,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "올파트너스 - 국내 제휴 마케팅 프로그램 비교",
+  title: "제휴비교 - 국내 제휴 마케팅 프로그램 비교",
   description:
     "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
   keywords:
     "제휴마케팅, 어필리에이트, 쿠팡파트너스, 네이버쇼핑커넥트, 수수료비교, 블로그수익화",
   alternates: {
-    canonical: "https://allpartners.vercel.app",
+    canonical: "https://jehyubigyo.vercel.app",
   },
   openGraph: {
-    title: "올파트너스 - 국내 제휴 마케팅 프로그램 비교",
+    title: "제휴비교 - 국내 제휴 마케팅 프로그램 비교",
     description:
       "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
     type: "website",
-    url: "https://allpartners.vercel.app",
-    siteName: "올파트너스",
+    url: "https://jehyubigyo.vercel.app",
+    siteName: "제휴비교",
     locale: "ko_KR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "올파트너스 - 국내 제휴 마케팅 프로그램 비교",
+    title: "제휴비교 - 국내 제휴 마케팅 프로그램 비교",
     description:
       "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
   },
@@ -55,8 +55,8 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "올파트너스",
-              url: "https://allpartners.vercel.app",
+              name: "제휴비교",
+              url: "https://jehyubigyo.vercel.app",
               description:
                 "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
               inLanguage: "ko",

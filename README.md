@@ -1,8 +1,8 @@
-# 올파트너스 (AllPartners)
+# 제휴비교 (JehyuBigyo)
 
 국내 제휴 마케팅(어필리에이트) 프로그램을 한눈에 비교할 수 있는 웹 서비스입니다.
 
-**Live:** https://allpartners.vercel.app
+**Live:** https://jehyubigyo.vercel.app
 
 ## Features
 
