@@ -47,7 +47,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['blog', 'youtube', 'instagram', 'sns'],
     category: '종합',
     features: '네이버 생태계 연동이 강점. 판매자가 수수료율을 7%~50%까지 직접 설정 가능. 링크 클릭 후 24시간 내 구매 또는 장바구니 담기 후 7일 내 결제 시 인정.',
-    officialUrl: 'https://brand.naver.com',
+    officialUrl: 'https://brandconnect.naver.com/about',
     status: 'active',
   },
   {
