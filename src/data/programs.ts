@@ -362,22 +362,6 @@ export const programs: AffiliateProgram[] = [
     status: 'active',
   },
   {
-    id: 'eurtcpa',
-    name: 'EURTCPA',
-    company: 'EURTCPA',
-    description: '해외 CPA 네트워크의 한국 진출 플랫폼',
-    type: ['CPA'],
-    commissionRate: '캠페인별 상이 (고단가)',
-    settlementCycle: '월 단위 정산', // 추정
-    minimumPayout: '$50 (약 65,000원)', // 추정
-    signupDifficulty: 'hard',
-    channels: ['website', 'blog', 'sns'],
-    category: 'CPA네트워크',
-    features: '글로벌 CPA 네트워크. 금융, 보험, 게임 등 고단가 캠페인 다수 보유. 매니저 배정을 통한 1:1 지원. 해외 광고주 직접 연결.',
-    officialUrl: 'https://www.eurtcpa.com',
-    status: 'active',
-  },
-  {
     id: 'ilikeclick',
     name: '아이라이크클릭',
     company: '아이라이크클릭',
