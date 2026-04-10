@@ -47,7 +47,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['blog', 'youtube', 'instagram', 'sns'],
     category: '종합',
     features: '네이버 생태계 연동이 강점. 판매자가 수수료율을 7%~50%까지 직접 설정 가능. 링크 클릭 후 24시간 내 구매 또는 장바구니 담기 후 7일 내 결제 시 인정.',
-    officialUrl: 'https://creator.naver.com',
+    officialUrl: 'https://brand.naver.com',
     status: 'active',
   },
   {
@@ -63,7 +63,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['blog', 'website', 'sns'],
     category: '종합',
     features: '직접 어필리에이트보다 링크프라이스 등 중간 네트워크를 통한 간접 참여 방식이 주류. 종합 쇼핑몰로 다양한 카테고리 상품 보유.',
-    officialUrl: 'https://affiliate.11st.co.kr',
+    officialUrl: 'https://www.11st.co.kr',
     status: 'active',
   },
   {
@@ -98,7 +98,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['youtube', 'instagram', 'blog', 'sns'],
     category: '뷰티',
     features: '유튜브 쇼핑 제휴 프로그램과 연동. 뷰티 카테고리 국내 1위 플랫폼. 수수료율 변경 시 1개월 전 사전 안내 제공.',
-    officialUrl: 'https://shopping.youtube.com/affiliates',
+    officialUrl: 'https://www.youtube.com/shopping/affiliates',
     status: 'active',
   },
   {
