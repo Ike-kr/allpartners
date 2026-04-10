@@ -47,7 +47,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['blog', 'youtube', 'instagram', 'sns'],
     category: '종합',
     features: '네이버 생태계 연동이 강점. 판매자가 수수료율을 7%~50%까지 직접 설정 가능. 링크 클릭 후 24시간 내 구매 또는 장바구니 담기 후 7일 내 결제 시 인정.',
-    officialUrl: 'https://shopping.naver.com/connect',
+    officialUrl: 'https://creator.naver.com',
     status: 'active',
   },
   {
@@ -63,7 +63,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['blog', 'website', 'sns'],
     category: '종합',
     features: '직접 어필리에이트보다 링크프라이스 등 중간 네트워크를 통한 간접 참여 방식이 주류. 종합 쇼핑몰로 다양한 카테고리 상품 보유.',
-    officialUrl: 'https://www.11st.co.kr',
+    officialUrl: 'https://affiliate.11st.co.kr',
     status: 'active',
   },
   {
@@ -98,7 +98,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['youtube', 'instagram', 'blog', 'sns'],
     category: '뷰티',
     features: '유튜브 쇼핑 제휴 프로그램과 연동. 뷰티 카테고리 국내 1위 플랫폼. 수수료율 변경 시 1개월 전 사전 안내 제공.',
-    officialUrl: 'https://www.oliveyoung.co.kr',
+    officialUrl: 'https://shopping.youtube.com/affiliates',
     status: 'active',
   },
   {
@@ -196,7 +196,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['blog', 'cafe', 'sns', 'website'],
     category: 'CPA네트워크',
     features: '국내 최대 어필리에이트 네트워크. 300여 개 국내외 머천트 보유. 2023년 매출 335억, 영업이익 90억 달성. 실적 100% 지급 원칙.',
-    officialUrl: 'https://www.linkprice.com',
+    officialUrl: 'https://ac.linkprice.net/join',
     status: 'active',
   },
   {
@@ -212,7 +212,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['blog', 'youtube', 'sns', 'cafe'],
     category: 'CPA네트워크',
     features: "90만+ 회원 보유. '쇼핑메이트'(상품 판매 수수료)와 '광고메이트'(클릭/설치/체험단 등) 두 가지 수익 모델 제공. 11번가와 제휴.",
-    officialUrl: 'https://adpick.co.kr',
+    officialUrl: 'https://adpick.co.kr/?ac=login',
     status: 'active',
   },
   {
@@ -310,7 +310,7 @@ export const programs: AffiliateProgram[] = [
     channels: ['blog', 'website', 'youtube', 'sns'],
     category: '여행',
     features: '전 세계 숙박 시설 커버리지 최대. 예약 건수 기반 수수료율 상향 구조(25%→40%). 다양한 위젯과 딥링크 도구 제공.',
-    officialUrl: 'https://www.booking.com/affiliate-program',
+    officialUrl: 'https://www.booking.com/affiliate-program/v2/index.ko.html',
     status: 'active',
   },
   {
