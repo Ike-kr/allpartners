@@ -15,15 +15,26 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "올파트너스 - 국내 제휴 마케팅 프로그램 비교",
   description:
-    "국내 모든 어필리에이트(제휴 마케팅) 프로그램을 한눈에 비교하세요. 쿠팡 파트너스, 네이버 쇼핑 커넥트, 올리브영, 무신사 등 수수료율, 정산 조건, 가입 난이도를 한곳에서 확인할 수 있습니다.",
+    "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
   keywords:
-    "제휴 마케팅, 어필리에이트, 쿠팡 파트너스, 네이버 커넥트, 수수료 비교, 블로그 수익화, 유튜브 수익화",
+    "제휴마케팅, 어필리에이트, 쿠팡파트너스, 네이버쇼핑커넥트, 수수료비교, 블로그수익화",
+  alternates: {
+    canonical: "https://allpartners.vercel.app",
+  },
   openGraph: {
     title: "올파트너스 - 국내 제휴 마케팅 프로그램 비교",
     description:
-      "국내 모든 어필리에이트 프로그램을 한눈에 비교하세요.",
+      "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
     type: "website",
+    url: "https://allpartners.vercel.app",
+    siteName: "올파트너스",
     locale: "ko_KR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "올파트너스 - 국내 제휴 마케팅 프로그램 비교",
+    description:
+      "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
   },
 };
 
@@ -38,6 +49,20 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
       <body className="min-h-screen flex flex-col bg-gray-50 text-gray-900">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "올파트너스",
+              url: "https://allpartners.vercel.app",
+              description:
+                "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
+              inLanguage: "ko",
+            }),
+          }}
+        />
         {children}
       </body>
     </html>

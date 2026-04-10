@@ -53,9 +53,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const program = programs.find((p) => p.id === id);
   if (!program) return { title: "프로그램을 찾을 수 없습니다" };
 
+  const title = `${program.name} - 수수료, 정산조건, 가입방법 | 올파트너스`;
+  const description = `${program.name}(${program.company}) 제휴 마케팅 프로그램. 수수료율 ${program.commissionRate}, 정산 주기 ${program.settlementCycle}. 가입 방법과 조건을 확인하세요.`;
+  const url = `https://allpartners.vercel.app/programs/${program.id}`;
+
   return {
-    title: `${program.name} - 올파트너스`,
-    description: `${program.name} 제휴 마케팅 프로그램 상세 정보. 수수료율 ${program.commissionRate}, ${program.company} 운영.`,
+    title,
+    description,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url,
+      siteName: "올파트너스",
+      locale: "ko_KR",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
   };
 }
 
@@ -67,8 +87,43 @@ export default async function ProgramDetailPage({ params }: Props) {
     notFound();
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: program.name,
+    provider: {
+      "@type": "Organization",
+      name: program.company,
+      url: program.officialUrl,
+    },
+    description: program.description,
+    url: `https://allpartners.vercel.app/programs/${program.id}`,
+    category: "Affiliate Marketing",
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "commissionRate",
+        value: program.commissionRate,
+      },
+      {
+        "@type": "PropertyValue",
+        name: "settlementCycle",
+        value: program.settlementCycle,
+      },
+      {
+        "@type": "PropertyValue",
+        name: "minimumPayout",
+        value: program.minimumPayout,
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Header */}
       <header className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
