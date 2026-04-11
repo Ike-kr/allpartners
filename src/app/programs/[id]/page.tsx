@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = `${program.name} - 수수료, 정산조건, 가입방법 | 파트너스뷰`;
   const description = `${program.name}(${program.company}) 제휴 마케팅 프로그램. 수수료율 ${program.commissionRate}, 정산 주기 ${program.settlementCycle}. 가입 방법과 조건을 확인하세요.`;
-  const url = `https://partnersview.vercel.app/programs/${program.id}`;
+  const url = `https://partnersview.co.kr/programs/${program.id}`;
 
   return {
     title,
@@ -97,7 +97,7 @@ export default async function ProgramDetailPage({ params }: Props) {
       url: program.officialUrl,
     },
     description: program.description,
-    url: `https://partnersview.vercel.app/programs/${program.id}`,
+    url: `https://partnersview.co.kr/programs/${program.id}`,
     category: "Affiliate Marketing",
     additionalProperty: [
       {

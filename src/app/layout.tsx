@@ -25,14 +25,14 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://partnersview.vercel.app",
+    canonical: "https://partnersview.co.kr",
   },
   openGraph: {
     title: "파트너스뷰 - 국내 제휴 마케팅 프로그램 비교",
     description:
       "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
     type: "website",
-    url: "https://partnersview.vercel.app",
+    url: "https://partnersview.co.kr",
     siteName: "파트너스뷰",
     locale: "ko_KR",
   },
@@ -62,7 +62,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "파트너스뷰",
-              url: "https://partnersview.vercel.app",
+              url: "https://partnersview.co.kr",
               description:
                 "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
               inLanguage: "ko",
