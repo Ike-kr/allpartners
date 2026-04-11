@@ -18,6 +18,12 @@ export const metadata: Metadata = {
     "쿠팡 파트너스, 네이버 쇼핑 커넥트, 애드픽 등 국내 30개+ 어필리에이트 프로그램의 수수료, 정산 조건, 가입 방법을 한눈에 비교하세요.",
   keywords:
     "제휴마케팅, 어필리에이트, 쿠팡파트너스, 네이버쇼핑커넥트, 수수료비교, 블로그수익화",
+  verification: {
+    google: "google78aeaeea604a8e94",
+    other: {
+      "naver-site-verification": "13f68e8028ee8db15106dda9ea8bf7bf929c6dc2",
+    },
+  },
   alternates: {
     canonical: "https://partnersview.vercel.app",
   },
